@@ -1,0 +1,14 @@
+sudo yum update -y 
+sudo yum install docker -y
+sudo service docker start
+sudo usermod -aG docker ec2-user
+exit
+
+docker -v
+docker run -d -p 9090:9090 ashokit/spring-boot-rest-api
+docke images hello-world
+image id====>>>d2c94e258dcb 
+sudo apt update
+curl -fsSL get.docker.com | /bin/bash
+sudo usermod -aG docker ubuntu 
+exit
